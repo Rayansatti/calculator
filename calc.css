@@ -1,0 +1,46 @@
+.container{
+    width: 317px;
+    border: 3px solid #2F2504;
+    border-radius: 10px ;
+    background-color:#2F2504;
+    padding: 5px;
+}
+
+.num{
+    width: 70px;
+    background-color: #A5AE9E;
+    border-radius: 10px;
+}
+.dot{
+    width: 70px;
+    background-color: #7E846B;
+    border-radius: 10px;
+}
+.clear{
+    width: 70px;
+    background-color:#7da098;
+    border-radius: 10px;
+}
+.symbol{
+    width: 75px;
+    background-color: #594E36;
+    border-radius: 10px;
+}
+
+.equal{
+    margin-left: 3px;
+    margin-bottom: 10px;
+    width: 297px;
+    background-color: #D0DDD7;
+    border-radius: 10px;
+}
+#result{
+    width: 297px;
+    height: 25px;
+    border: 1px solid #D0DDD7;
+    margin-left: 3px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    color: #D0DDD7;
+}
