@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./calc.css">
+        <title>calculator project</title>
+        <script src="./calc.js" defer></script>
+    </head>
+    <body>
+        <div class="container"> 
+            <p id="result"></p>
+            
+            
+            <table class="calcu"> 
+            <tr id="r1">
+               <td><input type="button" class="num" value="7" onclick="resultDisplay(7)"></td>
+               <td><input type="button" class="num" value="8" onclick="resultDisplay(8)"></td>
+               <td><input type="button" class="num" value="9" onclick="resultDisplay(9)"></td>
+               <td><input type="button" class="symbol" value="+" onclick="resultDisplay('+')"></td>
+            </tr>
+            <tr id="r2">
+               <td><input type="button" class="num" value="4" onclick="resultDisplay(4) "></td>
+               <td><input type="button" class="num" value="5" onclick="resultDisplay(5)"></td>
+               <td><input type="button" class="num" value="6" onclick="resultDisplay(6)"></td>
+               <td><input type="button" class="symbol" value="-" onclick="resultDisplay('-')"></td>
+            </tr>
+            <tr id="r3">
+                <td><input type="button" class="num"  value="1" onclick="resultDisplay(1)"></td>
+                <td><input type="button" class="num" value="2" onclick="resultDisplay(2)"></td>
+                <td><input type="button" class="num" value="3" onclick="resultDisplay(3)"></td>
+                <td><input type="button" class="symbol" value="*" onclick="resultDisplay('*')"></td>
+             </tr>
+             <tr id="r4">
+                <td><input type="button" class="num" value="0" onclick="resultDisplay(0)"></td>
+            <td><input type="button" class="dot"  value="." onclick="resultDisplay('.'); dotUsed()"></td>
+                <td><input type="button" id="reset" class="clear" value="C"></td>
+                <td><input type="button" class="symbol" value="/" onclick="resultDisplay('/')"></td>
+             </tr>
+    
+        </table>
+        <div class="eq">
+            <input type="button" class="equal" value="=" onclick="resultDisplay('='); operations()">
+          </div>
+    </div>
+       
+    </body>
+</html>
